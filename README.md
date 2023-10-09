@@ -39,6 +39,14 @@ After compiling, in the terminal, type:
 .\prog.exe
 ```
 
+### Enabling Non-Ascii Characters in PowerShell Terminal
+
+If using **PowerShell** as the terminal, you can issue the following command to enable non-ascii characters for the program *output*.
+
+```console
+[Console]::OutputEncoding = [Text.Encoding]::Utf8
+```
+
 ### Debugging
 
 Set your breakpoint(s) and click on the `Run and Debug` tab on VS Code and click on `gdb - Debug project` (at the top).
